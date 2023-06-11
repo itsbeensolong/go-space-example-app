@@ -2,7 +2,7 @@
 v: 0
 micros:
   - name: go-space-example-app
-    src: ./
+    src: .
     engine: custom
     primary: true
     commands:
@@ -10,3 +10,4 @@ micros:
     include:
       - server
     run: ./server
+    dev: go run .
